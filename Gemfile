@@ -8,4 +8,4 @@ gem "rspec", "~> 3.11"
 
 gem "sinatra", "~> 2.2"
 
-gem "sinatra/base"
+gem "capybara", "~> 3.36"
