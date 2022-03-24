@@ -2,3 +2,7 @@
 <h2>Welcome <%= @second_player %>!</h2>
 <h2><%= @first_player %> hit points: <%= @first_player_hit_points %></h2>
 <h2><%= @second_player %> hit points: <%= @second_player_hit_points %></h2>
+
+<form action="/attack" method='post'>
+  <input type="submit" value="Attack" />
+</form>
